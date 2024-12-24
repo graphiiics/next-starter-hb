@@ -94,3 +94,34 @@ Then create the .prettierrc with these settings:
 ```
 
 ⚠️ Important to have installed the prettier extension.
+
+### Styling
+
+1. Beside to use tailwind to styling our components also with can use the
+   alternative to create alternatives as:
+
+- Global CSS
+- CSS Modules
+
+2. Global CSS is basically describe rules on the global css.
+
+3. CSS Modules is create files with extension .module.css that will apply only
+   in specific components or pages.
+
+```javascript
+import styles from './page.module.css'
+export default function Home() {
+  return (
+    <section>
+        <h1 className={styles.title}>Next 15.1.2 Starter
+    </section>
+  )
+}
+```
+
+4. There some libraries that we can use with previous components styled, for
+   example:
+
+- Tailwind ui
+- Headless ui
+- Radix
