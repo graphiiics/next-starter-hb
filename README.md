@@ -128,6 +128,29 @@ export default function Home() {
 
 ### 2.3 Deploy your app
 
+1. Create a build with the next command:
+
 ```bash
 pnpm build
 ```
+
+2. This time we will deploy throw github and vercel.com
+
+- Push your last changes on your main branch
+
+```bash
+git add .
+git commit -m 'create first build'
+git push
+```
+
+3. Login in Vercel.com
+
+- Click on "add new" > project
+- Select project from github and import
+- Config settings (depending each project)
+- Click on "Deploy" button
+
+4. After complete full process you can check you project
+
+- Example: https://next-starter-hb.vercel.app/
