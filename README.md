@@ -22,9 +22,9 @@ family for Vercel.
 
 ## Learn More (Notes by Me | )
 
-### Your first app
+### 2. Your first app
 
-#### Create a NextJs app
+#### 2.1 Create a NextJs app
 
 1. We create the project in a previous folder with the following command and
    selecting these settings:
@@ -79,7 +79,7 @@ pnpm install -D prettier prettier-plugin-tailwindcss
 
 Then create the .prettierrc with these settings:
 
-```bash
+```json
 {
   "arrowParens": "avoid",
   "singleQuote": true,
@@ -95,7 +95,7 @@ Then create the .prettierrc with these settings:
 
 ⚠️ Important to have installed the prettier extension.
 
-### Styling
+### 2.2 Styling
 
 1. Beside to use tailwind to styling our components also with can use the
    alternative to create alternatives as:
@@ -125,3 +125,9 @@ export default function Home() {
 - Tailwind ui
 - Headless ui
 - Radix
+
+### 2.3 Deploy your app
+
+```bash
+pnpm build
+```
